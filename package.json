@@ -7,18 +7,16 @@
   "keywords": [
     "linter"
   ],
-  "activationCommands": {
-    "atom-workspace": "linter-quartus:toggle"
-  },
-  "repository": "https://github.com/atom/linter-quartus",
+  "repository": "https://gitlab.com/konnorandrews/linter-quartus",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "fs-extra": "^7.0.0",
     "tmp": "0.0.33",
-    "atom-package-deps": ">=4.6.0",
-    "child-process-promise": "^2.2.1"
+    "tmp-promise": "^1.0.5"
   },
   "providedServices": {
     "linter": {
