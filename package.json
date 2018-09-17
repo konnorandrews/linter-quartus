@@ -1,0 +1,33 @@
+{
+  "name": "linter-quartus",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "author": "Konnor Andrews",
+  "description": "A short description of your package",
+  "keywords": [
+    "linter"
+  ],
+  "activationCommands": {
+    "atom-workspace": "linter-quartus:toggle"
+  },
+  "repository": "https://github.com/atom/linter-quartus",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "tmp": "0.0.33",
+    "atom-package-deps": ">=4.6.0",
+    "child-process-promise": "^2.2.1"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "package-deps": [
+    "linter"
+  ]
+}
