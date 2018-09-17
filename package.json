@@ -1,13 +1,13 @@
 {
   "name": "linter-quartus",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "author": "Konnor Andrews",
   "description": "A short description of your package",
   "keywords": [
     "linter"
   ],
-  "repository": "https://gitlab.com/konnorandrews/linter-quartus",
+  "repository": "https://github.com/konnorandrews/linter-quartus",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
