@@ -15,8 +15,8 @@
   "dependencies": {
     "child-process-promise": "^2.2.1",
     "fs-extra": "^7.0.0",
-    "tmp": "0.0.33",
-    "tmp-promise": "^1.0.5"
+    "tmp": "0.2.4",
+    "tmp-promise": "^3.0.3"
   },
   "providedServices": {
     "linter": {
